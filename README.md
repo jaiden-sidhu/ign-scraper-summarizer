@@ -10,7 +10,11 @@ The navigator code uses Selenium to manually navigate the page as if a user was 
 
 ## How To Run:
 
-Run the main.py file. If any errors are given, the Python classes have comments that list the errors and what to fix to make sure it runs correctly. When the main.py file is run, the terminal should give you an input to put in a search term. NOTE: Some videogames may not have reviews as they are not listed/reviewed on the IGN website. This code's function is to display webscraping/NLP/sentiment analysis algorithms, not provide an in-depth database of game reviews
+Run the main.py file. If any errors are given, the Python classes have comments that list the errors and what to fix to make sure it runs correctly. When the main.py file is run, the terminal should give you an input to put in a search term. 
+
+NOTE: Some errors may appear that look similar to "[0801/232145.815:ERROR:socket_manager.cc(141)]". You do not have to worry about these errors, they are minor errors in the loading of the page (due to adblocks, location services, etc.) Any errors that should be noted will terminate the Python code.
+
+NOTE: Some videogames may not have reviews as they are not listed/reviewed on the IGN website. This code's function is to display webscraping/NLP/sentiment analysis algorithms, not provide an in-depth database of game reviews
 
 ## Things To Do:
 
