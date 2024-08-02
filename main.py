@@ -16,7 +16,7 @@ neg_words = open('sentiment_words/negative.txt').read().split('\n')
 # The fraction of "sentiment" words to total words for it to count as conflicted
 POSITIVE_CUTOFF = 3
 NEGATIVE_CUTOFF = -3
-CONFLICTED_RATIO = 0.25
+CONFLICTED_RATIO = 0.1
 
 def main(search_term):
     ign_url = "https://ign.com"
